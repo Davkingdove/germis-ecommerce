@@ -1,0 +1,33 @@
+{
+  "name": "germis-ecommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon backend/server.js ",
+    "start": "node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Davkingdove/germis-ecommerce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Davkingdove/germis-ecommerce/issues"
+  },
+  "homepage": "https://github.com/Davkingdove/germis-ecommerce#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^2.7.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "ioredis": "^5.7.0",
+    "mongoose": "^8.18.0",
+    "nodemon": "^3.1.10",
+    "stripe": "^18.5.0"
+  }
+}
